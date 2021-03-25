@@ -50,6 +50,7 @@ jobs:
       run: |
         git config --global user.email ztsthu@gmail.com
         git config --global user.name ZodiacWind
+        git pull ...
         git add .
         git commit -m "update new token" -a
     - name: Push changes
