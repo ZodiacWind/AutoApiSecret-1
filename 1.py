@@ -7,11 +7,6 @@ import json,sys,time,random
 #mail:  Mail.Read、Mail.ReadWrite、MailboxSettings.Read、MailboxSettings.ReadWrite
 #注册后一定要再点代表xxx授予管理员同意,否则outlook api无法调用
 
-
-
-
-
-
 path=sys.path[0]+r'/1.txt'
 path2=sys.path[0]+r'/time.log'
 num1 = 0
